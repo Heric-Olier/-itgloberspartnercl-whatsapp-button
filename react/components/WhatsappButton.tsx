@@ -10,7 +10,18 @@ type Props = {
 };
 
 const WhatsappButton = ({ logo, phone, message, width, height }: Props) => (
-  <div>
+  <div className="fixed bottom-2 right-2 flex flexColumn"
+    style={{
+      zIndex: 9999,
+      backgroundColor: '#fb441f',
+      borderRadius: '50%',
+      boxShadow: '0 0 10px 0 rgba(0,0,0,0.5)',
+      width: 46,
+      height: 46,
+      alignItems: 'center',
+      justifyContent: 'center',
+    }}
+  >
     <a
       href={`https://api.whatsapp.com/send?phone=${phone}&text=${message}`}
       target="_blank"
