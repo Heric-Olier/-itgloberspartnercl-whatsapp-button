@@ -1,5 +1,7 @@
 # Whatsapp Button Component
 
+![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)
+
 ## Description
 
 The Whatsapp Button Component is a block that allows the user to contact the store via WhatsApp. The user can click on the button and start a chat with the store.
@@ -85,3 +87,4 @@ Check out some documentation models that are already live:
 - [Condition Layout](https://vtex.io/docs/components/all/vtex.condition-layout@1.1.6/)
 - [Add To Cart Button](https://vtex.io/docs/components/content-blocks/vtex.add-to-cart-button@0.9.0/)
 - [Store Form](https://vtex.io/docs/components/all/vtex.store-form@0.3.4/)
+
